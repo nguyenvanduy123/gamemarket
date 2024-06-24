@@ -1,0 +1,222 @@
+.header {
+  width: 100%;
+  height: 58px;
+  // background-color: #FFF4BD;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0) url("../../../../public/image/header.png") no-repeat scroll bottom center/contain;
+
+  .btn-upgrade {
+    background: rgba(0, 0, 0, 0) url("../../../../public/image/monye.png") no-repeat scroll bottom center/contain;
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 50px;
+    float: right;
+    margin-left: 229.68px;
+
+    p {
+      margin-top: -10.21px;
+      width: 43px;
+      margin-left: 69px;
+      color: white;
+      border: none;
+      font-weight: 700;
+      font-family: "SVN-Bango";
+    }
+  }
+}
+@media (min-width: 450px){
+  .header {
+    width: 100%;
+    height: 62px;
+    // background-color: #FFF4BD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0) url("../../../../public/image/header.png") no-repeat scroll bottom center/contain;
+  
+    .btn-upgrade {
+      background: rgba(0, 0, 0, 0) url("../../../../public/image/monye.png") no-repeat scroll bottom center/contain;
+      border: none;
+      outline: none;
+      width: 100%;
+      height: 64px;
+      float: right;
+      margin-left: 232.68px;
+  
+      p {
+        margin-top: -12.21px;
+        width: 43px;
+        margin-left: 81px;
+        color: white;
+        border: none;
+        font-weight: 700;
+        font-family: "SVN-Bango";
+      }
+    }
+  }
+
+}
+@media (max-width: 440px) and (min-width: 430px){
+  .header {
+    width: 100%;
+    height: 64px;
+    // background-color: #FFF4BD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0) url("../../../../public/image/header.png") no-repeat scroll bottom center/contain;
+  
+    .btn-upgrade {
+      background: rgba(0, 0, 0, 0) url("../../../../public/image/monye.png") no-repeat scroll bottom center/contain;
+      border: none;
+      outline: none;
+      width: 100%;
+      height: 62px;
+      float: right;
+      margin-left: 232.68px;
+  
+      p {
+        margin-top: -12.21px;
+        width: 43px;
+        margin-left: 81px;
+        color: white;
+        border: none;
+        font-weight: 700;
+        font-family: "SVN-Bango";
+      }
+    }
+  }
+
+}
+@media (max-width: 420px) and (min-width: 400px){
+  .header {
+    width: 100%;
+    height: 62px;
+    // background-color: #FFF4BD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0) url("../../../../public/image/header.png") no-repeat scroll bottom center/contain;
+  
+    .btn-upgrade {
+      background: rgba(0, 0, 0, 0) url("../../../../public/image/monye.png") no-repeat scroll bottom center/contain;
+      border: none;
+      outline: none;
+      width: 100%;
+      height: 62px;
+      float: right;
+      margin-left: 232.68px;
+  
+      p {
+        margin-top: -12.21px;
+        width: 43px;
+        margin-left: 81px;
+        color: white;
+        border: none;
+        font-weight: 700;
+        font-family: "SVN-Bango";
+      }
+    }
+  }
+
+}
+@media (max-width: 380px) and (min-width: 350px){
+  .header {
+    width: 100%;
+    height: 56px;
+    // background-color: #FFF4BD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0) url("../../../../public/image/header.png") no-repeat scroll bottom center/contain;
+  
+    .btn-upgrade {
+      background: rgba(0, 0, 0, 0) url("../../../../public/image/monye.png") no-repeat scroll bottom center/contain;
+      border: none;
+      outline: none;
+      width: 100%;
+      height: 51px;
+      float: right;
+      margin-left: 216.68px;
+  
+      p {
+        margin-top: -6.21px;
+        width: 43px;
+        margin-left: 64px;
+        color: white;
+        border: none;
+        font-weight: 700;
+        font-family: "SVN-Bango";
+      }
+    }
+  }
+
+}
+@media (max-width: 360px) and (min-width: 350px){
+  .header {
+    width: 100%;
+    height: 54px;
+    // background-color: #FFF4BD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0) url("../../../../public/image/header.png") no-repeat scroll bottom center/contain;
+  
+    .btn-upgrade {
+      background: rgba(0, 0, 0, 0) url("../../../../public/image/monye.png") no-repeat scroll bottom center/contain;
+      border: none;
+      outline: none;
+      width: 100%;
+      height: 43px;
+      float: right;
+      margin-left: 224.68px;
+  
+      p {
+        margin-top: -8.21px;
+        width: 43px;
+        margin-left: 55px;
+        color: white;
+        border: none;
+        font-weight: 700;
+        font-family: "SVN-Bango";
+      }
+    }
+  }
+
+}
+@media (max-width: 350px) and (min-width: 320px){
+  .header {
+    width: 100%;
+    height: 52px;
+    // background-color: #FFF4BD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0) url("../../../../public/image/header.png") no-repeat scroll bottom center/contain;
+  
+    .btn-upgrade {
+      background: rgba(0, 0, 0, 0) url("../../../../public/image/monye.png") no-repeat scroll bottom center/contain;
+      border: none;
+      outline: none;
+      width: 100%;
+      height: 53px;
+      float: right;
+      margin-left: 165.68px;
+  
+      p {
+        margin-top: -12.21px;
+        width: 43px;
+        margin-left: 81px;
+        color: white;
+        border: none;
+        font-weight: 700;
+        font-family: "SVN-Bango";
+      }
+    }
+  }
+
+}
+

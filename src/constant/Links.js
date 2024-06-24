@@ -1,0 +1,1 @@
+export const CURRENT_LINK = window.location.origin;

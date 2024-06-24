@@ -1,0 +1,358 @@
+.Container-bag {
+    background: rgba(0, 0, 0, 0) url("../../../../public/image/bag.png") no-repeat scroll top center/cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 87vh;
+    margin: 0;
+    padding: 0;
+    background-size: 442px 126%;
+    position: relative;
+
+    .watermark {
+        background: rgba(0, 0, 0, 0) url("../../../../public/image/hinhmo.png") no-repeat scroll top center/cover;
+        height: 87vh;
+
+        h2 {
+            margin: 0;
+            font-size: 36.89px;
+            line-height: 29.15px;
+            font-weight: 700;
+            padding: 25px;
+        }
+
+        .frames-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+            padding-top: 0px;
+
+            .frame {
+                background: rgba(0, 0, 0, 0) url("../../../../public/image/frame.png") no-repeat scroll top center/cover;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                width: calc(33.33% - 20px);
+                height: 100px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                border: none;
+            }
+        }
+
+    }
+
+
+
+}
+
+@media (min-width: 450px) {
+    .Container-bag {
+        background: rgba(0, 0, 0, 0) url("../../../../public/image/bag.png") no-repeat scroll top center/cover;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 128vh;
+        margin: 0;
+        padding: 0;
+        background-size: 422px 117%;
+
+        .watermark {
+            background: rgba(0, 0, 0, 0) url("../../../../public/image/hinhmo.png") no-repeat scroll top center/cover;
+            height: 129vh;
+    
+            h2 {
+                margin: 0;
+                font-size: 36.89px;
+                line-height: 29.15px;
+                font-weight: 700;
+                padding: 25px;
+            }
+    
+            .frames-container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                padding: 20px;
+                padding-top: 0px;
+    
+                .frame {
+                    background: rgba(0, 0, 0, 0) url("../../../../public/image/frame.png") no-repeat scroll top center/cover;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    width: calc(26.33% - 20px);
+        height: 78px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin: 10px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    border: none;
+                }
+            }
+    
+        }
+
+
+    }
+
+}
+
+@media (max-width: 440px) and (min-width: 430px) {
+    .Container-bag {
+        background: rgba(0, 0, 0, 0) url("../../../../public/image/bag.png") no-repeat scroll top center/cover;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 87vh;
+        margin: 0;
+        padding: 0;
+        background-size: 442px 126%;
+
+        .watermark {
+            background: rgba(0, 0, 0, 0) url("../../../../public/image/hinhmo.png") no-repeat scroll top center/cover;
+            height: 87vh;
+    
+            h2 {
+                margin: 0;
+                font-size: 36.89px;
+                line-height: 29.15px;
+                font-weight: 700;
+                padding: 25px;
+            }
+    
+            .frames-container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                padding: 20px;
+                padding-top: 0px;
+    
+                .frame {
+                    background: rgba(0, 0, 0, 0) url("../../../../public/image/frame.png") no-repeat scroll top center/cover;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    width: calc(33.33% - 20px);
+                    height: 115px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin: 10px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    border: none;
+                }
+            }
+    
+        }
+
+    }
+
+}
+
+@media (max-width: 420px) and (min-width: 400px) {
+    .Container-bag {
+        background: rgba(0, 0, 0, 0) url("../../../../public/image/bag.png") no-repeat scroll top center/cover;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 87vh;
+        margin: 0;
+        padding: 0;
+        background-size: 442px 126%;
+
+        .watermark {
+            background: rgba(0, 0, 0, 0) url("../../../../public/image/hinhmo.png") no-repeat scroll top center/cover;
+            height: 87vh;
+    
+            h2 {
+                margin: 0;
+                font-size: 36.89px;
+                line-height: 29.15px;
+                font-weight: 700;
+                padding: 25px;
+            }
+    
+            .frames-container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                padding: 20px;
+                padding-top: 0px;
+    
+                .frame {
+                    background: rgba(0, 0, 0, 0) url("../../../../public/image/frame.png") no-repeat scroll top center/cover;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    width: calc(33.33% - 20px);
+                    height: 105px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin: 10px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    border: none;
+                }
+            }
+    
+        }
+
+    }
+
+}
+
+@media (max-width: 380px) and (min-width: 350px) {
+    .Container-bag {
+        background: rgba(0, 0, 0, 0) url("../../../../public/image/bag.png") no-repeat scroll top center/cover;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 86vh;
+        margin: 0;
+        padding: 0;
+        background-size: 397px 115%;
+
+        .watermark {
+            background: rgba(0, 0, 0, 0) url("../../../../public/image/hinhmo.png") no-repeat scroll top center/cover;
+            height: 87vh;
+    
+            h2 {
+                margin: 0;
+                font-size: 36.89px;
+                line-height: 29.15px;
+                font-weight: 700;
+                padding: 25px;
+            }
+    
+            .frames-container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                padding: 20px;
+                padding-top: 0px;
+    
+                .frame {
+                    background: rgba(0, 0, 0, 0) url("../../../../public/image/frame.png") no-repeat scroll top center/cover;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    width: calc(28.33% - 27px);
+        height: 68px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin: 10px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    border: none;
+                }
+            }
+    
+        }
+
+
+    }
+
+}
+
+@media (max-width: 360px) and (min-width: 350px) {
+    .Container-bag {
+        background: rgba(0, 0, 0, 0) url("../../../../public/image/bag.png") no-repeat scroll top center/cover;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 87vh;
+        margin: 0;
+        padding: 0;
+        background-size: 442px 126%;
+
+        .watermark {
+            background: rgba(0, 0, 0, 0) url("../../../../public/image/hinhmo.png") no-repeat scroll top center/cover;
+            height: 87vh;
+    
+            h2 {
+                margin: 0;
+                font-size: 36.89px;
+                line-height: 29.15px;
+                font-weight: 700;
+                padding: 25px;
+            }
+    
+            .frames-container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                padding: 20px;
+                padding-top: 0px;
+    
+                .frame {
+                    background: rgba(0, 0, 0, 0) url("../../../../public/image/frame.png") no-repeat scroll top center/cover;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    width: calc(28.33% - 10px);
+                    height: 83px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin: 10px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    border: none;
+                }
+            }
+    
+        }
+
+    }
+
+}
+
+@media (max-width: 350px) and (min-width: 320px) {
+    .Container-bag {
+        background: rgba(0, 0, 0, 0) url("../../../../public/image/bag.png") no-repeat scroll top center/cover;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 89vh;
+        margin: 0;
+        padding: 0;
+        background-size: 442px 126%;
+
+        .watermark {
+            background: rgba(0, 0, 0, 0) url("../../../../public/image/hinhmo.png") no-repeat scroll top center/cover;
+            height: 87vh;
+    
+            h2 {
+                margin: 0;
+                font-size: 36.89px;
+                line-height: 29.15px;
+                font-weight: 700;
+                padding: 25px;
+            }
+    
+            .frames-container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                padding: 20px;
+                padding-top: 0px;
+    
+                .frame {
+                    background: rgba(0, 0, 0, 0) url("../../../../public/image/frame.png") no-repeat scroll top center/cover;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    width: calc(33.33% - 21px);
+        height: 83px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin: 10px;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    border: none;
+                }
+            }
+    
+        }
+
+    }
+
+}

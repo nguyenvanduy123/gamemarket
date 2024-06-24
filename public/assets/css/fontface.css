@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'LNTH-Lissaindidone';
+    src: url('../fonts/0098-LNTH-Lissaindidone.ttf') format('truetype');
+}
+
+.font_LNTH-Lissaindidone {
+    font-family: 'LNTH-Lissaindidone', sans-serif;
+}

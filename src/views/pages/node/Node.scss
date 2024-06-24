@@ -1,0 +1,843 @@
+.Container-node {
+    background: rgba(0, 0, 0, 0) url("../../../../public/image/node1.png") no-repeat scroll top center/cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 87vh;
+    margin: 0;
+    padding: 0;
+    background-size: 442px 126%;
+    position: relative;
+
+    .content-active {
+        height: 69vh;
+        width: 10px;
+        padding: 54px;
+        padding-top: 203px;
+
+        .active {
+            background: rgba(0, 0, 0, 0) url("../../../../public/image/active.png") no-repeat scroll top center/cover;
+            height: 32vh;
+            width: 284px;
+
+            .title {
+                position: relative;
+                display: inline-block;
+                letter-spacing: 3px;
+                margin-left: 103px;
+                font-family: SVN-Bango;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                margin-top: 12px;
+                color: #FFFFFF;
+            }
+
+            .active-money {
+                margin-top: 40px;
+
+                .amount {
+                    display: flex;
+
+                    span {
+                        color: #FFFFFF;
+                        margin-top: 12px;
+                        font-family: SVN-Bango;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        position: relative;
+                        display: inline-block;
+                        letter-spacing: 3px;
+                        margin-left: 51px;
+                    }
+                }
+                .profit{
+                    display: flex;
+
+                    span {
+                        color: #FFFFFF;
+                        margin-top: 25px;
+                        font-family: SVN-Bango;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        position: relative;
+                        display: inline-block;
+                        letter-spacing: 3px;
+                        margin-left: 59px;
+                    }
+                }
+                .claimed{
+                    display: flex;
+
+                    span {
+                        color: #FFFFFF;
+                        margin-top: 30px;
+                        font-family: SVN-Bango;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        position: relative;
+                        display: inline-block;
+                        letter-spacing: 3px;
+                        margin-left: 49px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width: 1290px) {
+    .Container-node {
+        background: rgba(0, 0, 0, 0) url("../../../../public/image/node1.png") no-repeat scroll top center/cover;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 128vh;
+        margin: 0;
+        padding: 0;
+        background-size: 422px 117%;
+
+        .content-active {
+            height: 69vh;
+            width: 10px;
+            padding: 74px;
+            padding-top: 150px;
+
+            .active {
+                background: rgba(0, 0, 0, 0) url("../../../../public/image/active.png") no-repeat scroll top center/cover;
+                height: 43vh;
+                width: 255px;
+
+                .title {
+                    position: relative;
+                    display: inline-block;
+                    letter-spacing: 1px;
+                    margin-left: 95px;
+                    font-family: SVN-Bango;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    margin-top: 9px;
+                    color: #FFFFFF;
+                }
+                .active-money {
+                    margin-top: 40px;
+    
+                    .amount {
+                        display: flex;
+    
+                        span {
+                            color: #FFFFFF;
+                            margin-top: 12px;
+                            font-family: SVN-Bango;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            position: relative;
+                            display: inline-block;
+                            letter-spacing: 3px;
+                            margin-left: 51px;
+                        }
+                    }
+                    .profit{
+                        display: flex;
+    
+                        span {
+                            color: #FFFFFF;
+                            margin-top: 25px;
+                            font-family: SVN-Bango;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            position: relative;
+                            display: inline-block;
+                            letter-spacing: 3px;
+                            margin-left: 59px;
+                        }
+                    }
+                    .claimed{
+                        display: flex;
+    
+                        span {
+                            color: #FFFFFF;
+                            margin-top: 24px;
+                            font-family: SVN-Bango;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            position: relative;
+                            display: inline-block;
+                            letter-spacing: 3px;
+                            margin-left: 49px;
+                        }
+                    }
+                }
+            }
+        }
+
+
+
+    }
+}
+
+
+@media (min-width: 490px) and (max-width: 1290px) {
+
+    .Container-node {
+        background: rgba(0, 0, 0, 0) url("../../../../public/image/node1.png") no-repeat scroll top center/cover;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 128vh;
+        margin: 0;
+        padding: 0;
+        background-size: 422px 117%;
+
+        .content-active {
+            height: 69vh;
+            width: 10px;
+            padding: 74px;
+            padding-top: 150px;
+
+            .active {
+                background: rgba(0, 0, 0, 0) url("../../../../public/image/active.png") no-repeat scroll top center/cover;
+                height: 30vh;
+                width: 255px;
+
+                .title {
+                    position: relative;
+                    display: inline-block;
+                    letter-spacing: 1px;
+                    margin-left: 95px;
+                    font-family: SVN-Bango;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    margin-top: 9px;
+                    color: #FFFFFF;
+                }
+                .active-money {
+                    margin-top: 40px;
+    
+                    .amount {
+                        display: flex;
+    
+                        span {
+                            color: #FFFFFF;
+                            margin-top: 12px;
+                            font-family: SVN-Bango;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            position: relative;
+                            display: inline-block;
+                            letter-spacing: 3px;
+                            margin-left: 51px;
+                        }
+                    }
+                    .profit{
+                        display: flex;
+    
+                        span {
+                            color: #FFFFFF;
+                            margin-top: 25px;
+                            font-family: SVN-Bango;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            position: relative;
+                            display: inline-block;
+                            letter-spacing: 3px;
+                            margin-left: 59px;
+                        }
+                    }
+                    .claimed{
+                        display: flex;
+    
+                        span {
+                            color: #FFFFFF;
+                            margin-top: 24px;
+                            font-family: SVN-Bango;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            position: relative;
+                            display: inline-block;
+                            letter-spacing: 3px;
+                            margin-left: 49px;
+                        }
+                    }
+                }
+            }
+        }
+
+
+
+    }
+}
+@media (min-width: 450px) and (max-width: 490px)  {
+    .Container-node {
+        background: rgba(0, 0, 0, 0) url("../../../../public/image/node1.png") no-repeat scroll top center/cover;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 128vh;
+        margin: 0;
+        padding: 0;
+        background-size: 422px 117%;
+
+        .content-active {
+            height: 69vh;
+            width: 10px;
+            padding: 74px;
+            padding-top: 150px;
+
+            .active {
+                background: rgba(0, 0, 0, 0) url("../../../../public/image/active.png") no-repeat scroll top center/cover;
+                height: 30vh;
+                width: 255px;
+
+                .title {
+                    position: relative;
+                    display: inline-block;
+                    letter-spacing: 1px;
+                    margin-left: 95px;
+                    font-family: SVN-Bango;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    margin-top: 9px;
+                    color: #FFFFFF;
+                }
+                .active-money {
+                    margin-top: 40px;
+    
+                    .amount {
+                        display: flex;
+    
+                        span {
+                            color: #FFFFFF;
+                            margin-top: 12px;
+                            font-family: SVN-Bango;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            position: relative;
+                            display: inline-block;
+                            letter-spacing: 3px;
+                            margin-left: 51px;
+                        }
+                    }
+                    .profit{
+                        display: flex;
+    
+                        span {
+                            color: #FFFFFF;
+                            margin-top: 25px;
+                            font-family: SVN-Bango;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            position: relative;
+                            display: inline-block;
+                            letter-spacing: 3px;
+                            margin-left: 59px;
+                        }
+                    }
+                    .claimed{
+                        display: flex;
+    
+                        span {
+                            color: #FFFFFF;
+                            margin-top: 24px;
+                            font-family: SVN-Bango;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            position: relative;
+                            display: inline-block;
+                            letter-spacing: 3px;
+                            margin-left: 49px;
+                        }
+                    }
+                }
+            }
+        }
+
+
+
+    }
+
+}
+
+@media (max-width: 440px) and (min-width: 430px) {
+    .Container-node {
+        background: rgba(0, 0, 0, 0) url("../../../../public/image/node1.png") no-repeat scroll top center/cover;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 87vh;
+        margin: 0;
+        padding: 0;
+        background-size: 442px 126%;
+
+        .content-active {
+            height: 69vh;
+            width: 10px;
+            padding: 57px;
+            padding-top: 221px;
+
+            .active {
+                background: rgba(0, 0, 0, 0) url("../../../../public/image/active.png") no-repeat scroll top center/cover;
+                height: 32vh;
+                width: 313px;
+
+                .title {
+                    position: relative;
+                    display: inline-block;
+                    letter-spacing: 4px;
+                    margin-left: 115px;
+                    font-family: SVN-Bango;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    margin-top: 13px;
+                    color: #FFFFFF;
+                }
+                .active-money {
+                    margin-top: 53px;
+    
+                    .amount {
+                        display: flex;
+    
+                        span {
+                            color: #FFFFFF;
+                            margin-top: 12px;
+                            font-family: SVN-Bango;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            position: relative;
+                            display: inline-block;
+                            letter-spacing: 3px;
+                            margin-left: 51px;
+                        }
+                    }
+                    .profit{
+                        display: flex;
+    
+                        span {
+                            color: #FFFFFF;
+                            margin-top: 25px;
+                            font-family: SVN-Bango;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            position: relative;
+                            display: inline-block;
+                            letter-spacing: 3px;
+                            margin-left: 59px;
+                        }
+                    }
+                    .claimed{
+                        display: flex;
+    
+                        span {
+                            color: #FFFFFF;
+                            margin-top: 30px;
+                            font-family: SVN-Bango;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            position: relative;
+                            display: inline-block;
+                            letter-spacing: 3px;
+                            margin-left: 49px;
+                        }
+                    }
+                }
+            }
+        }
+
+
+    }
+
+}
+
+@media (max-width: 420px) and (min-width: 400px) {
+    .Container-node {
+        background: rgba(0, 0, 0, 0) url("../../../../public/image/node1.png") no-repeat scroll top center/cover;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 87vh;
+        margin: 0;
+        padding: 0;
+        background-size: 442px 126%;
+
+        .content-active {
+            height: 69vh;
+            width: 10px;
+            padding: 57px;
+            padding-top: 221px;
+
+            .active {
+                background: rgba(0, 0, 0, 0) url("../../../../public/image/active.png") no-repeat scroll top center/cover;
+                height: 33vh;
+                width: 313px;
+
+                .title {
+                    position: relative;
+                    display: inline-block;
+                    letter-spacing: 4px;
+                    margin-left: 115px;
+                    font-family: SVN-Bango;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    margin-top: 13px;
+                    color: #FFFFFF;
+                }
+                .active-money {
+                    margin-top: 53px;
+    
+                    .amount {
+                        display: flex;
+    
+                        span {
+                            color: #FFFFFF;
+                            margin-top: 12px;
+                            font-family: SVN-Bango;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            position: relative;
+                            display: inline-block;
+                            letter-spacing: 3px;
+                            margin-left: 51px;
+                        }
+                    }
+                    .profit{
+                        display: flex;
+    
+                        span {
+                            color: #FFFFFF;
+                            margin-top: 25px;
+                            font-family: SVN-Bango;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            position: relative;
+                            display: inline-block;
+                            letter-spacing: 3px;
+                            margin-left: 59px;
+                        }
+                    }
+                    .claimed{
+                        display: flex;
+    
+                        span {
+                            color: #FFFFFF;
+                            margin-top: 30px;
+                            font-family: SVN-Bango;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            position: relative;
+                            display: inline-block;
+                            letter-spacing: 3px;
+                            margin-left: 49px;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+
+}
+
+@media (max-width: 380px) and (min-width: 350px) {
+    .Container-node {
+        background: rgba(0, 0, 0, 0) url("../../../../public/image/node1.png") no-repeat scroll top center/cover;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 86vh;
+        margin: 0;
+        padding: 0;
+        background-size: 397px 115%;
+
+        .content-active {
+            height: 69vh;
+            width: 10px;
+            padding: 45px;
+            padding-top: 116px;
+
+            .active {
+                background: rgba(0, 0, 0, 0) url("../../../../public/image/active.png") no-repeat scroll top center/cover;
+                height: 40vh;
+                width: 282px;
+
+                .title {
+                    position: relative;
+                    display: inline-block;
+                    letter-spacing: 2px;
+                    margin-left: 105px;
+                    font-family: SVN-Bango;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    margin-top: 12px;
+                    color: #FFFFFF;
+                }
+                .active-money {
+                    margin-top: 45px;
+    
+                    .amount {
+                        display: flex;
+    
+                        span {
+                            color: #FFFFFF;
+                            margin-top: 12px;
+                            font-family: SVN-Bango;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            position: relative;
+                            display: inline-block;
+                            letter-spacing: 3px;
+                            margin-left: 51px;
+                        }
+                    }
+                    .profit{
+                        display: flex;
+    
+                        span {
+                            color: #FFFFFF;
+                            margin-top: 25px;
+                            font-family: SVN-Bango;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            position: relative;
+                            display: inline-block;
+                            letter-spacing: 3px;
+                            margin-left: 59px;
+                        }
+                    }
+                    .claimed{
+                        display: flex;
+    
+                        span {
+                            color: #FFFFFF;
+                            margin-top: 27px;
+                            font-family: SVN-Bango;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            position: relative;
+                            display: inline-block;
+                            letter-spacing: 3px;
+                            margin-left: 49px;
+                        }
+                    }
+                }
+
+            }
+        }
+
+
+    }
+
+}
+
+@media (max-width: 360px) and (min-width: 350px) {
+    .Container-node {
+        background: rgba(0, 0, 0, 0) url("../../../../public/image/node1.png") no-repeat scroll top center/cover;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 87vh;
+        margin: 0;
+        padding: 0;
+        background-size: 442px 126%;
+
+        .content-active {
+            height: 69vh;
+            width: 10px;
+            padding: 45px;
+            padding-top: 116px;
+
+            .active {
+                background: rgba(0, 0, 0, 0) url("../../../../public/image/active.png") no-repeat scroll top center/cover;
+                height: 36vh;
+                width: 279px;
+
+                .title {
+                    position: relative;
+                    display: inline-block;
+                    letter-spacing: 2px;
+                    margin-left: 105px;
+                    font-family: SVN-Bango;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    margin-top: 12px;
+                    color: #FFFFFF;
+                }
+                .active-money {
+                    margin-top: 40px;
+    
+                    .amount {
+                        display: flex;
+    
+                        span {
+                            color: #FFFFFF;
+                            margin-top: 12px;
+                            font-family: SVN-Bango;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            position: relative;
+                            display: inline-block;
+                            letter-spacing: 3px;
+                            margin-left: 51px;
+                        }
+                    }
+                    .profit{
+                        display: flex;
+    
+                        span {
+                            color: #FFFFFF;
+                            margin-top: 25px;
+                            font-family: SVN-Bango;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            position: relative;
+                            display: inline-block;
+                            letter-spacing: 3px;
+                            margin-left: 59px;
+                        }
+                    }
+                    .claimed{
+                        display: flex;
+    
+                        span {
+                            color: #FFFFFF;
+                            margin-top: 30px;
+                            font-family: SVN-Bango;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            position: relative;
+                            display: inline-block;
+                            letter-spacing: 3px;
+                            margin-left: 49px;
+                        }
+                    }
+                }
+
+            }
+        }
+
+    }
+
+}
+
+@media (max-width: 350px) and (min-width: 320px) {
+    .Container-node {
+        background: rgba(0, 0, 0, 0) url("../../../../public/image/node1.png") no-repeat scroll top center/cover;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 89vh;
+        margin: 0;
+        padding: 0;
+        background-size: 442px 126%;
+
+        .content-active {
+            height: 69vh;
+            width: 10px;
+            padding: 45px;
+            padding-top: 116px;
+
+            .active {
+                background: rgba(0, 0, 0, 0) url("../../../../public/image/active.png") no-repeat scroll top center/cover;
+                height: 30vh;
+                width: 279px;
+
+                .title {
+                    position: relative;
+                    display: inline-block;
+                    letter-spacing: 2px;
+                    margin-left: 105px;
+                    font-family: SVN-Bango;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    margin-top: 12px;
+                    color: #FFFFFF;
+                }
+                .active-money {
+                    margin-top: 40px;
+    
+                    .amount {
+                        display: flex;
+    
+                        span {
+                            color: #FFFFFF;
+                            margin-top: 12px;
+                            font-family: SVN-Bango;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            position: relative;
+                            display: inline-block;
+                            letter-spacing: 3px;
+                            margin-left: 51px;
+                        }
+                    }
+                    .profit{
+                        display: flex;
+    
+                        span {
+                            color: #FFFFFF;
+                            margin-top: 25px;
+                            font-family: SVN-Bango;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            position: relative;
+                            display: inline-block;
+                            letter-spacing: 3px;
+                            margin-left: 59px;
+                        }
+                    }
+                    .claimed{
+                        display: flex;
+    
+                        span {
+                            color: #FFFFFF;
+                            margin-top: 30px;
+                            font-family: SVN-Bango;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            position: relative;
+                            display: inline-block;
+                            letter-spacing: 3px;
+                            margin-left: 49px;
+                        }
+                    }
+                }
+
+            }
+        }
+
+    }
+
+}

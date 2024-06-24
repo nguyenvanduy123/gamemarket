@@ -1,0 +1,548 @@
+.Container-home {
+    background: rgba(0, 0, 0, 0) url("../../../../public/image/home1.png") no-repeat scroll top center/cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 87vh;
+    margin: 0;
+    padding: 0;
+    background-size: 442px 126%;
+
+    .top-frame,
+    .bottom-upgrade {
+        width: 100%;
+        height: 150px;
+        background-color: #f0f0f0;
+        // border: 1px solid #ccc;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        outline: none;
+    }
+
+    .top-frame {
+        margin-bottom: 10px;
+        position: absolute;
+        width: 159px;
+        height: 50px;
+        top: 520px;
+        left: 122px;
+
+        background: rgba(0, 0, 0, 0) url("../../../../public/image/clock1.png") no-repeat scroll top center/cover;
+
+        p {
+            font-family: SVN-Bango, sans-serif;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 14.88px;
+            letter-spacing: 21%;
+            text-align: center;
+            color: white;
+                margin-left: 13px;
+        }
+
+    }
+
+    .bottom-upgrade {
+        position: absolute;
+        width: 97px;
+        height: 94px;
+        top: 590px;
+        left: 159px;
+        border: none;
+        outline: none;
+        background: rgba(0, 0, 0, 0) url("../../../../public/image/nangcap.png") no-repeat scroll top center/cover;
+    }
+
+}
+@media (min-width: 1290px) {
+    .Container-home {
+        background: rgba(0, 0, 0, 0) url("../../../../public/image/home1.png") no-repeat scroll top center/cover;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 131vh;
+        margin: 0;
+        padding: 0;
+        background-size: 422px 117%;
+
+        .top-frame,
+        .bottom-upgrade {
+            width: 100%;
+            height: 150px;
+            background-color: #f0f0f0;
+            // border: 1px solid #ccc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            outline: none;
+        }
+
+        .top-frame {
+            margin-bottom: 10px;
+            position: absolute;
+            width: 159px;
+            height: 48px;
+            top: 452px;
+            left: 126px;
+            background: rgba(0, 0, 0, 0) url("../../../../public/image/clock1.png") no-repeat scroll top center/cover;
+
+            p {
+                font-family: SVN-Bango, sans-serif;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 14.88px;
+                letter-spacing: 21%;
+                text-align: center;
+                color: white;
+                margin-left: 13px;
+            }
+
+        }
+
+        .bottom-upgrade {
+            position: absolute;
+            width: 97px;
+            height: 94px;
+            top: 509px;
+            left: 166px;
+            border: none;
+            outline: none;
+            background: rgba(0, 0, 0, 0) url("../../../../public/image/nangcap.png") no-repeat scroll top center/cover;
+        }
+
+    }
+
+}
+
+@media (min-width: 490px) and (max-width: 1290px) {
+    .Container-home {
+        background: rgba(0, 0, 0, 0) url("../../../../public/image/home1.png") no-repeat scroll top center/cover;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 76vh;
+        margin: 0;
+        padding: 0;
+        background-size: 422px 117%;
+
+        .top-frame,
+        .bottom-upgrade {
+            width: 100%;
+            height: 150px;
+            background-color: #f0f0f0;
+            // border: 1px solid #ccc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            outline: none;
+        }
+
+        .top-frame {
+            margin-bottom: 10px;
+            position: absolute;
+            width: 159px;
+            height: 48px;
+            top: 452px;
+            left: 126px;
+            background: rgba(0, 0, 0, 0) url("../../../../public/image/clock1.png") no-repeat scroll top center/cover;
+
+            p {
+                font-family: SVN-Bango, sans-serif;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 14.88px;
+                letter-spacing: 21%;
+                text-align: center;
+                color: white;
+                margin-left: 13px;
+            }
+
+        }
+
+        .bottom-upgrade {
+            position: absolute;
+            width: 97px;
+            height: 94px;
+            top: 509px;
+            left: 166px;
+            border: none;
+            outline: none;
+            background: rgba(0, 0, 0, 0) url("../../../../public/image/nangcap.png") no-repeat scroll top center/cover;
+        }
+
+    }
+
+}
+
+@media (min-width: 450px) and (max-width: 490px) {
+    .Container-home {
+        background: rgba(0, 0, 0, 0) url("../../../../public/image/home1.png") no-repeat scroll top center/cover;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 79vh;
+        margin: 0;
+        padding: 0;
+        background-size: 429px 100%;
+
+        .top-frame,
+        .bottom-upgrade {
+            width: 100%;
+            height: 150px;
+            background-color: #f0f0f0;
+            // border: 1px solid #ccc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            outline: none;
+        }
+
+        .top-frame {
+            margin-bottom: 10px;
+            position: absolute;
+            width: 136px;
+            height: 42px;
+            top: 467px;
+            left: 137px;
+
+            background: rgba(0, 0, 0, 0) url("../../../../public/image/clock1.png") no-repeat scroll top center/cover;
+
+            p {
+                font-family: SVN-Bango, sans-serif;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 14.88px;
+                letter-spacing: 21%;
+                text-align: center;
+                color: white;
+                margin-left: 13px;
+            }
+
+        }
+
+        .bottom-upgrade {
+            position: absolute;
+            width: 67px;
+            height: 66px;
+            top: 523px;
+            left: 181px;
+            border: none;
+            outline: none;
+            background: rgba(0, 0, 0, 0) url("../../../../public/image/nangcap.png") no-repeat scroll top center/cover;
+        }
+
+    }
+
+}
+
+@media (max-width: 440px) and (min-width: 430px) {
+    .Container-home {
+        background: rgba(0, 0, 0, 0) url("../../../../public/image/home1.png") no-repeat scroll top center/cover;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 87vh;
+        margin: 0;
+        padding: 0;
+        background-size: 442px 126%;
+
+        .top-frame,
+        .bottom-upgrade {
+            width: 100%;
+            height: 150px;
+            background-color: #f0f0f0;
+            // border: 1px solid #ccc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            outline: none;
+        }
+
+
+        .top-frame {
+            margin-bottom: 10px;
+            position: absolute;
+            width: 159px;
+            height: 50px;
+            top: 580px;
+            left: 135px;
+
+            background: rgba(0, 0, 0, 0) url("../../../../public/image/clock1.png") no-repeat scroll top center/cover;
+
+            p {
+                font-family: SVN-Bango, sans-serif;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 14.88px;
+                letter-spacing: 21%;
+                text-align: center;
+                color: white;
+                margin-left: 13px;
+            }
+
+        }
+
+        .bottom-upgrade {
+            position: absolute;
+            width: 97px;
+            height: 94px;
+            top: 650px;
+            left: 180px;
+            border: none;
+            outline: none;
+            background: rgba(0, 0, 0, 0) url("../../../../public/image/nangcap.png") no-repeat scroll top center/cover;
+        }
+
+    }
+
+}
+
+@media (max-width: 420px) and (min-width: 400px) {
+    .Container-home {
+        background: rgba(0, 0, 0, 0) url("../../../../public/image/home1.png") no-repeat scroll top center/cover;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 87vh;
+        margin: 0;
+        padding: 0;
+        background-size: 442px 126%;
+
+        .top-frame,
+        .bottom-upgrade {
+            width: 100%;
+            height: 150px;
+            background-color: #f0f0f0;
+            // border: 1px solid #ccc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            outline: none;
+        }
+
+        .top-frame {
+            margin-bottom: 10px;
+            position: absolute;
+            width: 159px;
+            height: 48px;
+            top: 552px;
+            left: 129px;
+            background: rgba(0, 0, 0, 0) url("../../../../public/image/clock1.png") no-repeat scroll top center/cover;
+
+            p {
+                font-family: SVN-Bango, sans-serif;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 14.88px;
+                letter-spacing: 21%;
+                text-align: center;
+                color: white;
+                margin-left: 13px;
+            }
+
+        }
+
+        .bottom-upgrade {
+            position: absolute;
+            width: 97px;
+            height: 94px;
+            top: 618px;
+            left: 166px;
+            border: none;
+            outline: none;
+            background: rgba(0, 0, 0, 0) url("../../../../public/image/nangcap.png") no-repeat scroll top center/cover;
+        }
+
+    }
+
+}
+
+@media (max-width: 380px) and (min-width: 350px) {
+    .Container-home {
+        background: rgba(0, 0, 0, 0) url("../../../../public/image/home1.png") no-repeat scroll top center/cover;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 86vh;
+        margin: 0;
+        padding: 0;
+        background-size: 397px 115%;
+
+        .top-frame,
+        .bottom-upgrade {
+            width: 100%;
+            height: 150px;
+            background-color: #f0f0f0;
+            // border: 1px solid #ccc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            outline: none;
+        }
+
+        .top-frame {
+            margin-bottom: 10px;
+            position: absolute;
+            width: 131px;
+            height: 41px;
+            top: 419px;
+            left: 127px;
+            background: rgba(0, 0, 0, 0) url("../../../../public/image/clock1.png") no-repeat scroll top center/cover;
+
+            p {
+                font-family: SVN-Bango, sans-serif;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 14.88px;
+                letter-spacing: 21%;
+                text-align: center;
+                color: white;
+                margin-left: 13px;
+            }
+
+        }
+
+        .bottom-upgrade {
+            position: absolute;
+            width: 78px;
+            height: 76px;
+            top: 478px;
+            left: 160px;
+            border: none;
+            outline: none;
+            background: rgba(0, 0, 0, 0) url("../../../../public/image/nangcap.png") no-repeat scroll top center/cover;
+        }
+
+    }
+
+}
+
+@media (max-width: 360px) and (min-width: 350px) {
+    .Container-home {
+        background: rgba(0, 0, 0, 0) url("../../../../public/image/home1.png") no-repeat scroll top center/cover;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 87vh;
+        margin: 0;
+        padding: 0;
+        background-size: 442px 126%;
+
+        .top-frame,
+        .bottom-upgrade {
+            width: 100%;
+            height: 150px;
+            background-color: #f0f0f0;
+            // border: 1px solid #ccc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            outline: none;
+        }
+
+        .top-frame {
+            margin-bottom: 10px;
+            position: absolute;
+            width: 159px;
+            height: 48px;
+            top: 452px;
+            left: 126px;
+            background: rgba(0, 0, 0, 0) url("../../../../public/image/clock1.png") no-repeat scroll top center/cover;
+
+            p {
+                font-family: SVN-Bango, sans-serif;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 14.88px;
+                letter-spacing: 21%;
+                text-align: center;
+                color: white;
+                margin-left: 13px;
+            }
+
+        }
+
+        .bottom-upgrade {
+            position: absolute;
+            width: 97px;
+            height: 94px;
+            top: 509px;
+            left: 166px;
+            border: none;
+            outline: none;
+            background: rgba(0, 0, 0, 0) url("../../../../public/image/nangcap.png") no-repeat scroll top center/cover;
+        }
+
+    }
+
+}
+
+@media (max-width: 350px) and (min-width: 320px) {
+    .Container-home {
+        background: rgba(0, 0, 0, 0) url("../../../../public/image/home1.png") no-repeat scroll top center/cover;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 89vh;
+        margin: 0;
+        padding: 0;
+        background-size: 442px 126%;
+
+        .top-frame,
+        .bottom-upgrade {
+            width: 100%;
+            height: 150px;
+            background-color: #f0f0f0;
+            // border: 1px solid #ccc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            outline: none;
+        }
+
+        .top-frame {
+            margin-bottom: 10px;
+            position: absolute;
+            width: 159px;
+            height: 48px;
+            top: 544px;
+            left: 100px;
+            background: rgba(0, 0, 0, 0) url("../../../../public/image/clock1.png") no-repeat scroll top center/cover;
+
+            p {
+                font-family: SVN-Bango, sans-serif;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 14.88px;
+                letter-spacing: 21%;
+                text-align: center;
+                color: white;
+                margin-left: 13px;
+            }
+
+        }
+
+        .bottom-upgrade {
+            position: absolute;
+            width: 97px;
+            height: 94px;
+            top: 620px;
+            left: 140px;
+            border: none;
+            outline: none;
+            background: rgba(0, 0, 0, 0) url("../../../../public/image/nangcap.png") no-repeat scroll top center/cover;
+        }
+
+    }
+
+}

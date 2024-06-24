@@ -1,0 +1,530 @@
+.Container-market {
+    background: rgba(0, 0, 0, 0) url("../../../../public/image/makket.png") no-repeat scroll top center/cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 87vh;
+    margin: 0;
+    padding: 0;
+    background-size: 442px 126%;
+    position: relative;
+
+    .frames-container {
+        padding: 20px;
+        padding-top: 50px;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        gap: 0px;
+        height: 37vh;
+
+        .frame {
+            background: rgba(0, 0, 0, 0) url("../../../../public/image/market1.png") no-repeat scroll top center/cover;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            width: calc(33.33% - 20px);
+            height: 127px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 18px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border: none;
+        }
+
+        .top {
+            grid-column: span 2;
+            width: 127px;
+            margin-left: 116px;
+        }
+
+        .bottom-left {
+            grid-row: 2;
+            grid-column: 1;
+            width: 127px;
+            margin-left: 31px;
+        }
+
+        .bottom-right {
+            grid-row: 2;
+            grid-column: 2;
+            width: 127px;
+            margin-left: 29px;
+        }
+
+    }
+
+    .market-gold {
+        background: rgba(0, 0, 0, 0) url("../../../../public/image/market2.png") no-repeat scroll top center/cover;
+        border-radius: 4px;
+        width: calc(53.33% - 13px);
+        height: 183px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 30px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border: none;
+        margin-top: 49px;
+    margin-left: 103px;
+    }
+
+
+
+
+}
+
+@media (min-width: 450px) {
+    .Container-market {
+        background: rgba(0, 0, 0, 0) url("../../../../public/image/makket.png") no-repeat scroll top center/cover;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 128vh;
+        margin: 0;
+        padding: 0;
+        background-size: 422px 117%;
+
+        .frames-container {
+            padding: 20px;
+            padding-top: 30px;
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+            grid-template-columns: 1fr 1fr;
+            gap: 0px;
+            height: 37vh;
+
+            .frame {
+                background: rgba(0, 0, 0, 0) url("../../../../public/image/market1.png") no-repeat scroll top center/cover;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                width: calc(33.33% - 20px);
+                height: 100px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 19px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                border: none;
+            }
+
+            .top {
+                grid-column: span 2;
+                width: 100px;
+                margin-left: 135px;
+            }
+
+            .bottom-left {
+                grid-row: 2;
+                grid-column: 1;
+                width: 100px;
+                margin-left: 56px;
+            }
+
+            .bottom-right {
+                grid-row: 2;
+                grid-column: 2;
+                width: 100px;
+                margin-left: 44px;
+            }
+
+        }
+
+        .market-gold {
+            background: rgba(0, 0, 0, 0) url("../../../../public/image/market2.png") no-repeat scroll top center/cover;
+            border-radius: 4px;
+            width: calc(38.33% - 5px);
+            height: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border: none;
+            margin-top: 0px;
+            margin-left: 135px;
+        }
+
+
+    }
+
+}
+
+@media (max-width: 440px) and (min-width: 430px) {
+    .Container-market {
+        background: rgba(0, 0, 0, 0) url("../../../../public/image/makket.png") no-repeat scroll top center/cover;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 87vh;
+        margin: 0;
+        padding: 0;
+        background-size: 442px 126%;
+
+        .frames-container {
+            padding: 20px;
+            padding-top: 50px;
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+            grid-template-columns: 1fr 1fr;
+            gap: 0px;
+            height: 37vh;
+    
+            .frame {
+                background: rgba(0, 0, 0, 0) url("../../../../public/image/market1.png") no-repeat scroll top center/cover;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                width: calc(33.33% - 20px);
+                height: 127px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 18px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                border: none;
+            }
+    
+            .top {
+                grid-column: span 2;
+                width: 127px;
+                margin-left: 130px;
+            }
+    
+            .bottom-left {
+                grid-row: 2;
+                grid-column: 1;
+                width: 127px;
+                margin-left: 43px;
+            }
+    
+            .bottom-right {
+                grid-row: 2;
+                grid-column: 2;
+                width: 127px;
+                margin-left: 29px;
+            }
+    
+        }
+    
+        .market-gold {
+            background: rgba(0, 0, 0, 0) url("../../../../public/image/market2.png") no-repeat scroll top center/cover;
+            border-radius: 4px;
+            width: calc(53.33% - 13px);
+            height: 208px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border: none;
+            margin-top: 39px;
+        margin-left: 108px;
+        }
+
+
+    }
+
+}
+
+@media (max-width: 420px) and (min-width: 400px) {
+    .Container-market {
+        background: rgba(0, 0, 0, 0) url("../../../../public/image/makket.png") no-repeat scroll top center/cover;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 87vh;
+        margin: 0;
+        padding: 0;
+        background-size: 442px 126%;
+
+        .frames-container {
+            padding: 20px;
+            padding-top: 50px;
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+            grid-template-columns: 1fr 1fr;
+            gap: 0px;
+            height: 37vh;
+    
+            .frame {
+                background: rgba(0, 0, 0, 0) url("../../../../public/image/market1.png") no-repeat scroll top center/cover;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                width: calc(33.33% - 20px);
+                height: 127px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 18px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                border: none;
+            }
+    
+            .top {
+                grid-column: span 2;
+                width: 127px;
+                margin-left: 116px;
+            }
+    
+            .bottom-left {
+                grid-row: 2;
+                grid-column: 1;
+                width: 127px;
+                margin-left: 31px;
+            }
+    
+            .bottom-right {
+                grid-row: 2;
+                grid-column: 2;
+                width: 127px;
+                margin-left: 29px;
+            }
+    
+        }
+    
+        .market-gold {
+            background: rgba(0, 0, 0, 0) url("../../../../public/image/market2.png") no-repeat scroll top center/cover;
+            border-radius: 4px;
+            width: calc(53.33% - 13px);
+            height: 183px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border: none;
+            margin-top: 49px;
+        margin-left: 103px;
+        }
+
+    }
+
+}
+
+@media (max-width: 380px) and (min-width: 350px) {
+    .Container-market {
+        background: rgba(0, 0, 0, 0) url("../../../../public/image/makket.png") no-repeat scroll top center/cover;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 86vh;
+        margin: 0;
+        padding: 0;
+        background-size: 397px 115%;
+
+        .frames-container {
+            padding: 20px;
+            padding-top: 12px;
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+            grid-template-columns: 1fr 1fr;
+            gap: 0px;
+            height: 37vh;
+    
+            .frame {
+                background: rgba(0, 0, 0, 0) url("../../../../public/image/market1.png") no-repeat scroll top center/cover;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                width: calc(33.33% - 20px);
+                height: 110px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 18px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                border: none;
+            }
+    
+            .top {
+                grid-column: span 2;
+                width: 110px;
+                margin-left: 116px;
+            }
+    
+            .bottom-left {
+                grid-row: 2;
+                grid-column: 1;
+                width: 110px;
+                margin-left: 36px;
+            }
+    
+            .bottom-right {
+                grid-row: 2;
+                grid-column: 2;
+                width: 110px;
+                margin-left: 29px;
+            }
+    
+        }
+    
+        .market-gold {
+            background: rgba(0, 0, 0, 0) url("../../../../public/image/market2.png") no-repeat scroll top center/cover;
+            border-radius: 4px;
+            width: calc(53.33% - 13px);
+            height: 183px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border: none;
+            margin-top: 49px;
+        margin-left: 103px;
+        }
+
+
+    }
+
+}
+
+@media (max-width: 360px) and (min-width: 350px) {
+    .Container-market {
+        background: rgba(0, 0, 0, 0) url("../../../../public/image/makket.png") no-repeat scroll top center/cover;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 87vh;
+        margin: 0;
+        padding: 0;
+        background-size: 442px 126%;
+
+        .frames-container {
+            padding: 20px;
+            padding-top: 25px;
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+            grid-template-columns: 1fr 1fr;
+            gap: 0px;
+            height: 37vh;
+    
+            .frame {
+                background: rgba(0, 0, 0, 0) url("../../../../public/image/market1.png") no-repeat scroll top center/cover;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                width: calc(33.33% - 20px);
+                height: 127px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 14px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                border: none;
+            }
+    
+            .top {
+                grid-column: span 2;
+                width: 127px;
+                margin-left: 96px;
+            }
+    
+            .bottom-left {
+                grid-row: 2;
+                grid-column: 1;
+                width: 127px;
+                margin-left: 15px;
+            }
+    
+            .bottom-right {
+                grid-row: 2;
+                grid-column: 2;
+                width: 127px;
+                margin-left: 29px;
+            }
+    
+        }
+    
+        .market-gold {
+            background: rgba(0, 0, 0, 0) url("../../../../public/image/market2.png") no-repeat scroll top center/cover;
+            border-radius: 4px;
+            width: calc(53.33% - 13px);
+            height: 183px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border: none;
+            margin-top: 49px;
+        margin-left: 95px;
+        }
+
+
+    }
+
+}
+
+@media (max-width: 350px) and (min-width: 320px) {
+    .Container-market {
+        background: rgba(0, 0, 0, 0) url("../../../../public/image/makket.png") no-repeat scroll top center/cover;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 89vh;
+        margin: 0;
+        padding: 0;
+        background-size: 442px 126%;
+
+        .frames-container {
+            padding: 20px;
+            padding-top: 50px;
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+            grid-template-columns: 1fr 1fr;
+            gap: 0px;
+            height: 37vh;
+    
+            .frame {
+                background: rgba(0, 0, 0, 0) url("../../../../public/image/market1.png") no-repeat scroll top center/cover;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                width: calc(33.33% - 20px);
+                height: 127px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 18px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                border: none;
+            }
+    
+            .top {
+                grid-column: span 2;
+                width: 127px;
+                margin-left: 87px;
+            }
+    
+            .bottom-left {
+                grid-row: 2;
+                grid-column: 1;
+                width: 127px;
+                margin-left: 4px;
+            }
+    
+            .bottom-right {
+                grid-row: 2;
+                grid-column: 2;
+                width: 127px;
+                margin-left: 29px;
+            }
+    
+        }
+    
+        .market-gold {
+            background: rgba(0, 0, 0, 0) url("../../../../public/image/market2.png") no-repeat scroll top center/cover;
+            border-radius: 4px;
+            width: calc(53.33% - 13px);
+            height: 183px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border: none;
+            margin-top: 49px;
+        margin-left: 87px;
+        }
+
+
+    }
+
+}
