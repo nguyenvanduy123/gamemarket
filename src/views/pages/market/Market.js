@@ -15,6 +15,11 @@ const Market = () => {
         <div className="Container-market">
             <Frames pro={frames}/>
             <div className="market-gold"></div>
+            <div className="market-content">
+                <div className="money"><p>4.1k</p></div>
+                <div className="market-upgrade"></div>
+
+            </div>
         </div>
     );
 };
